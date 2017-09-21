@@ -65,7 +65,7 @@ Tested on CentOS, Debian, and Windows 7.
 
 **Windows**
 
-`passgen.py` (if .py is associated with Python interpreter)
+`passgen.py` (if *.py* is associated with Python interpreter)
 
 `python passgen.py`
 
@@ -74,13 +74,13 @@ Tested on CentOS, Debian, and Windows 7.
 
 Adjust the variables:
 
-`numwords = 6`
+`NUM_WORDS = 6`
 
-`numerifywords = True`
+`MANGLE_LETTERS = True`
 
-and uncomment / amend the extra character substitution lines:
+and amend / add extra character substitution lines as required:
 
-`# words = [word.replace('a', '@') for word in words]`
+`words = [word.replace('a', '@') for word in words]`
 
 
 ## License
