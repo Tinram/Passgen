@@ -9,7 +9,7 @@
     Uses Python's CSPRNG (Linux: /dev/urandom, Windows: CryptGenRandom) to select words.
     Python 2 and 3 compatible, tested on Debian and CentOS Linux distros, and Windows.  (For Python3, replace existing shebang with: #!/usr/bin/env python3)
 
-    Author         Martin Latter <copysense.co.uk>
+    Author         Martin Latter
     Copyright      Martin Latter 23/10/2015
     Version        0.21
     License        GNU GPL version 3.0 (GPL v3); http://www.gnu.org/licenses/gpl.html
