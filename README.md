@@ -1,18 +1,16 @@
 
 # Passgen
 
-
-## Purpose
-
 #### Create long and memorable passphrases.
 
-For command-line and headless-server usage.
 
 ## Example
 
-    $ python passgen.py
+```bash
+    python passgen.py
 
-        UnobstructedWhitehorseBarclayContaminants3696
+    UnobstructedWhitehorseBarclayContaminants3696
+```
 
 
 ## Background
@@ -54,34 +52,45 @@ Tested on CentOS, Debian, and Windows 7.
 
 **Linux**
 
-`python passgen.py`
+```bash
+    python passgen.py
 
-`python3 passgen.py`
+    python3 passgen.py
 
-`./passgen.py` (with file executable bit set)
+    ./passgen.py
+```
 
 (Add to */usr/local/bin* or equivalent location for script availability.)
 
 
 **Windows**
 
-`passgen.py` (if *.py* is associated with Python interpreter)
+```batch
+    passgen.py
+```
 
-`python passgen.py`
+... if *.py* is associated with Python interpreter, else:
+
+```batch
+    python passgen.py
+```
 
 
 ## Passphrase Strengthening
 
 Adjust the variables:
 
-`NUM_WORDS = 6`
+```python
+    NUM_WORDS = 6
 
-`MANGLE_LETTERS = True`
+    MANGLE_LETTERS = True
+```
 
 and amend / add extra character substitution lines as required:
 
-`words = [word.replace('a', '@') for word in words]`
-
+```python
+    words = [word.replace('a', '@') for word in words]
+```
 
 ## License
 
